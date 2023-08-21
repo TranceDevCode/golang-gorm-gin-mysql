@@ -9,7 +9,7 @@ import (
 	"gotenancy/utils/dto"
 
 	"github.com/gin-gonic/gin"
-	validator "github.com/go-playground/validator/v10"
+	"github.com/go-playground/validator/v10"
 )
 
 func ListCustomers(c *gin.Context) {
